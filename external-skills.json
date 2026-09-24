@@ -1,0 +1,14 @@
+{
+  "$comment": "Skills I use that live in someone else's repo. They are pointers, not copies: install them straight from the source so their authors' updates reach you. `pinned` is the commit I last read and accepted; .github/workflows/external-skills-watch.yml opens an issue when upstream moves past it. Bump `pinned` only after reading the upstream diff.",
+  "skills": [
+    {
+      "name": "i-have-adhd",
+      "repo": "ayghri/i-have-adhd",
+      "path": "skills/i-have-adhd",
+      "branch": "main",
+      "pinned": "839872f9d1cd634fed642b4589ce7226199cc15f",
+      "license": "MIT",
+      "why": "Output shaping for a reader with ADHD: lead with the next action, number multi-step work, restate state across turns, suppress tangents. Pairs with the TLDR-first status these skills ask for."
+    }
+  ]
+}
