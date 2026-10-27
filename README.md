@@ -12,6 +12,7 @@ the way.
 | [`debugging`](skills/debugging/SKILL.md) | Bugs, regressions, flaky tests, crashes, OOM: evidence first, root cause before fix, regression test from recorded data proven by reverting the fix |
 | [`staged-decomposition`](skills/staged-decomposition/SKILL.md) | Risky work: several sources of truth, a stalled 40–70% attempt, an unrecorded subsystem. Evidence → catalog → stages, tests from real recordings |
 | [`pr-review`](skills/pr-review/SKILL.md) | One round of independent read-only reviewers, findings triaged against the code, merge only on explicit approval |
+| [`smallest-live-test`](skills/smallest-live-test/SKILL.md) | Before any slow run (pipeline, model run, eval, benchmark, full suite, CI): the smallest real test that answers the question, in the background with a hard limit, every failure found in one pass |
 
 ## How they fit
 
