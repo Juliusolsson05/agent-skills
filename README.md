@@ -44,6 +44,18 @@ npx skills add Juliusolsson05/agent-skills
 
 Or copy `skills/<name>/` into `~/.claude/skills/` or `~/.agents/skills/`.
 
+## Extensions
+
+Slash commands rather than skills: they run only when you type them, so they
+never trigger on their own. They live in [`extensions/`](extensions/).
+
+| Command | Use it for |
+|---|---|
+| [`/simple-code`](extensions/simple-code.md) | Push the agent towards simple, boring, obvious code instead of clever abstractions |
+| [`/llm-prep`](extensions/llm-prep.md) | Dump a codebase (or the paths you name) into one markdown file in `file-dumps/` for pasting into another LLM |
+
+Install by copying them into `~/.claude/commands/` (Claude Code).
+
 ## External skills I use
 
 These live in other repos and are listed in [`external-skills.json`](external-skills.json)
